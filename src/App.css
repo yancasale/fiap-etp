@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #9E8CC6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 70%;
+}
+
+.navbar p {
+  margin-right: 30px;
+  color: #ffff;
+}
+
+.main {
+  display: flex;
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.secao1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: right;
+  width: 50%;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.secao2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.main2 {
+  display: flex;
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.main3 {
+  display: flex;
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.secao2 {
+  background-image: url(/public/PBooks8.jpg);
+}
+
